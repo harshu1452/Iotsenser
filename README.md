@@ -1,26 +1,66 @@
-# IoT Sensor Monitoring System 🚀  
+# IoT Sensor Monitoring System 🚀
 
-A Spring Boot–based IoT Sensor Monitoring application that integrates **Kafka**, **PostgreSQL/MySQL**, and **OpenTelemetry** for distributed tracing. This project demonstrates expertise in building **scalable microservices**, **event-driven systems**, and **production-ready observability setups**.  
+A **Spring Boot–based IoT Sensor Monitoring System** designed to ingest, process, and monitor real-time sensor data using **REST APIs, Apache Kafka, relational databases, and OpenTelemetry**.
 
----
-
-## 🔹 Features  
-- **IoT Sensor Data Ingestion** via REST APIs and Kafka topics.  
-- **Data Persistence** using PostgreSQL/MySQL with Spring Data JPA.  
-- **Distributed Tracing & Metrics** using OpenTelemetry + Spring Boot Actuator.  
-- **Event-Driven Processing** with Apache Kafka.  
-- **Validation & Exception Handling** for clean and secure APIs.  
-- **Unit Testing** with JUnit & Mockito.  
+This project demonstrates **scalable backend system design**, **event-driven microservices**, and **production-grade observability**, similar to systems used in real-world IoT and data-streaming platforms.
 
 ---
 
-## 🔹 Tech Stack  
-- **Backend**: Java 17, Spring Boot 3, Spring Data JPA, Spring Kafka  
-- **Databases**: PostgreSQL, MySQL  
-- **Messaging**: Apache Kafka  
-- **Observability**: OpenTelemetry, Spring Boot Actuator  
-- **Build Tool**: Maven  
-- **Testing**: JUnit, Mockito  
+## 📌 Overview
+
+Modern IoT systems generate large volumes of data that must be processed reliably and observed effectively.  
+This application simulates a **real-world IoT backend** where sensor data is:
+
+- Collected via REST APIs
+- Streamed asynchronously using Kafka
+- Persisted in a relational database
+- Monitored using distributed tracing and metrics
+
+---
+
+## ✨ Key Features
+
+### 📡 Sensor Data Ingestion
+- RESTful APIs to accept sensor readings
+- Input validation for reliable data ingestion
+
+### 🔁 Event-Driven Processing
+- Kafka producer publishes sensor events
+- Kafka consumer processes events asynchronously
+- Enables loose coupling and high throughput
+
+### 🗄️ Data Persistence
+- Supports **PostgreSQL** and **MySQL**
+- Uses Spring Data JPA for ORM and clean data access
+
+### 🔍 Observability & Monitoring
+- Distributed tracing with **OpenTelemetry**
+- Metrics and health checks via **Spring Boot Actuator**
+- Compatible with **Jaeger** and **Zipkin**
+
+### 🛡️ API Reliability
+- Global exception handling
+- Meaningful HTTP status codes
+- Clean and secure API design
+
+### 🧪 Testing
+- Unit testing using **JUnit 5** and **Mockito**
+- Focus on service-layer and business-logic testing
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|-------|--------------|
+| Language | Java 17 |
+| Framework | Spring Boot 3 |
+| Persistence | Spring Data JPA |
+| Database | PostgreSQL / MySQL |
+| Messaging | Apache Kafka |
+| Observability | OpenTelemetry, Spring Boot Actuator |
+| Build Tool | Maven |
+| Testing | JUnit 5, Mockito |
 
 ---
 
